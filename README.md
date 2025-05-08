@@ -7,25 +7,6 @@ https://raw.githubusercontent.com/maelfabien/COVID-19-Senegal/master/COVID_Seneg
 
 Sur [ce site](https://covid-sn.onrender.com/) : https://covid-sn.onrender.com/, vous retrouverez l'application d'analyse de ces données.
 
-![image](demo.png)
-
-## Que contient ce repo?
-
-- Le notebook `COVID_Senegal.ipynb` contient une analyse de ces données.
-- Le dossier `app` contient l'application. Les technologies utilisées sont les suivantes:
-	- Python
-	- Bokeh
-	- Altair
-	- Streamlit	
-
 ## Comment utiliser ce repo?
 
 - Utilisez le lien vers le set de données CSV (séparé par des ";") pour vos analyses
-- Utilisez l'application:
-
-```bash
-pip install -r requirements.txt
-streamlit run app/app.py
-```
-
-L'application est déployée en utilisant [Render.com](https://render.com/)
